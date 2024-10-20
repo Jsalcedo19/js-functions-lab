@@ -53,16 +53,16 @@ function isCharAVowel(vowel){
     if (vowel === "a"){
         return true;
     }
-    if (vowel === "e"){
+    else if (vowel === "e"){
         return true;
     }
-    if (vowel === "i"){
+    else if (vowel === "i"){
         return true;
     }
-    if (vowel === "o"){
+    else if (vowel === "o"){
         return true;
     }
-    if (vowel === "u"){
+    else if (vowel === "u"){
         return true;
     }
     else {
@@ -88,3 +88,20 @@ function generateEmail(name,domain){
     return `${name}@${domain}`;
 }
 console.log(generateEmail("johnsmith","example.com"));
+
+/*
+Exercise 5: greetUser()
+
+Define a function called greetUser. It should take a name and a 
+time of day (morning, afternoon, evening) and return a personalized 
+greeting.
+
+Example: greetUser('Sam', 'morning') should return "Good morning, Sam!"
+
+Complete the exercise in the space below:
+*/
+
+function greetUser(timeOfDay, name){
+return `Good ${timeOfDay}, ${name}!`;
+}
+console.log(greetUser("Afternoon","Jose"))
