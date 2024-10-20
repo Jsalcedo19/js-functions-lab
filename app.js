@@ -70,3 +70,21 @@ function isCharAVowel(vowel){
     }
 }
 console.log(isCharAVowel("o"));
+
+/*
+Exercise 4: generateEmail()
+
+Create a function named generateEmail. It should take two strings: 
+a name and a domain. It should return a simple email address.
+
+Example: generateEmail('johnsmith', 'example.com') 
+should return 'johnsmith@example.com'.
+
+Complete the exercise in the space below:
+*/
+
+function generateEmail(name,domain){
+    //this concatenates name and domain to generate an email address
+    return `${name}@${domain}`;
+}
+console.log(generateEmail("johnsmith","example.com"));
