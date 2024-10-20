@@ -69,7 +69,7 @@ function isCharAVowel(vowel){
         return false;
     }
 }
-console.log(isCharAVowel("o"));
+console.log('Exercise 3 Results:',isCharAVowel("o"));
 
 /*
 Exercise 4: generateEmail()
@@ -87,7 +87,7 @@ function generateEmail(name,domain){
     //this concatenates name and domain to generate an email address
     return `${name}@${domain}`;
 }
-console.log(generateEmail("johnsmith","example.com"));
+console.log('Exercise 4 Resuslt:',generateEmail("joseSalcedo","gmail.com"));
 
 /*
 Exercise 5: greetUser()
@@ -104,4 +104,6 @@ Complete the exercise in the space below:
 function greetUser(timeOfDay, name){
 return `Good ${timeOfDay}, ${name}!`;
 }
-console.log(greetUser("Afternoon","Jose"))
+console.log('Exercise 5 Result:',greetUser("Afternoo", "Jose"));
+
+
